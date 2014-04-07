@@ -1,0 +1,9 @@
+[submodule "public/css/inuitcss"]
+	path = public/css/inuitcss
+	url = git@github.com:csswizardry/inuit.css.git
+[submodule "public/css/fontawesome"]
+	path = public/css/fontawesome
+	url = git@github.com:FortAwesome/Font-Awesome.git
+[submodule "public/css/buttons"]
+	path = public/css/buttons
+	url = git@github.com:deserted/Buttons.git
