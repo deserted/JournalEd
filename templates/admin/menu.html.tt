@@ -1,0 +1,15 @@
+<div class="admin-menu">
+	<ul class="nav nav--block">
+		<li>Journals
+		<ul>
+			<li>Add New Journal</li>
+			<li>Manage Existing Journals</li>
+		</ul></li>
+		<li>Pages
+		<ul>
+			<li>Add a Page</li>
+			<li>Manage Pages</li>
+		</ul></li>
+		<li>Upload media</li>
+	</ul>
+</div>

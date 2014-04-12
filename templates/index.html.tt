@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>[% pagetitle %]</title>
+			[% INCLUDE main/head.html.tt %]
+		</head>
+		<body>
+			[% IF isadmin %]
+				[% INCLUDE admin/menu.html.tt %]
+			[% ELSE %]
+				[% INCLUDE admin/menu.html.tt %]
+			[% END %]
+			<header>
+				<h2
+			</header>
+			<div class="grid">
+				<div class="grid__item one-whole">
+					<div>
+						[% INCLUDE main/nav.html.tt %]
+					</div>
+				</div>
+				<div class="grid__item four-fifths lap-three-quarters palm-one-whole">
+					<div class="journal-heading">
+						<h1>[% contentheading %]</h1>
+					</div>
+					<div class="content-pane">
+						[% content %]
+					</div>
+				</div>
+				<div class="grid__item one-fifth lap-one-quarter palm-one-whole">
+					<div class="content-additional">
+						[% contentside %]
+					</div>
+				</div>
+			</div>
+			<footer>
+
+			</footer>
+		</body>
+	</html>

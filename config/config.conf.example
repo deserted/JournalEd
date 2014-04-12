@@ -1,0 +1,6 @@
+{
+	dbname 	=> 'database name',
+	dbuser	=> 'sql user',
+	dbpass	=> 'sql pass',
+	dbhost 	=> 'database host'
+}
