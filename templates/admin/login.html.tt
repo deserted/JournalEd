@@ -1,0 +1,4 @@
+<div class="loginform">
+	<form method="post" action="/processlogin">
+		
+</div>

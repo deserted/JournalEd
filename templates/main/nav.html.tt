@@ -1,0 +1,9 @@
+<div class="mainmenu">
+	<ul class="nav nav--block">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Jounals</a></li>
+		[% FOREACH page in navpages %]
+			<li><a href="[% page.link %]">[% page.name %]</a></li>
+		[% END %]
+	</ul>
+</div>
